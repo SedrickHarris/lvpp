@@ -1,0 +1,69 @@
+url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700;800&display=swap');
+
+/* -------- Reset & Base -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  background-color: #F0F0F0; /* Pale Ash */
+  color: #1A1A1A; /* Gunmetal */
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: var(--color-gunmetal);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-weight: 700;
+  color: #2F3E46; /* Slate */
+  letter-spacing: -0.5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #1A1A1A;
+}
+
+
+:root {
+  --color-slate: #334155;
+  --color-gunmetal: #2a3439;
+  --color-steel: #475569;
+  --color-ash: #94a3b8;
+  --color-brass: #b45309;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: var(--color-gunmetal);
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
